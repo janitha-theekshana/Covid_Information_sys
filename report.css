@@ -1,0 +1,22 @@
+h1{
+    height: 80px;
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+button{
+    color: white;
+    background-color:blue;
+    width:70px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    transform: translateX(+900%);
+}
+p{
+    font-weight: bold;
+}
