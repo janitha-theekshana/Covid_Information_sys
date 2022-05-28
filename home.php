@@ -164,10 +164,10 @@ if($result_set){
                         
                     </div>
                     </a>
-                    <a href="News.php">
+                    <a href="report.php">
                     <div class="card card4">
-                        <h5>Covid information and Notice</h5>
-                        <p>Covid information and Notice in Keradewala Grama Niladari Divison.</p>
+                        <h5>Print Report</h5>
+                        <p>Print Covid information in Keradewala Grama Niladari Divison.</p>
                     </div>
                     </a>
                 </div>

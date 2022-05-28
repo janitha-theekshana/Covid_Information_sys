@@ -2,20 +2,20 @@ $(document).ready(function(){
 	$.ajax({
 		url:"http://localhost/web/vaccine.php",
 		method: "GET",
-		success: function(vaccine){
-			console.log(vaccine);
+		success: function(data){
+			console.log(data);
 			var vac = [];
 			var people = [];
 
-		for(var i in vaccine){
-			vac.push(vaccine[i].vaccine_name);
-			people.push(vaccine[i].people);
+		for(var i in data){
+			vac.push(data[i].vaccine_name);
+			people.push(data[i].people);
 				}
 		var chartdata = {
-			labels: vaccine,
+			labels: vac,
 			datasets: [
 				{
-				label: 'vaccination details',
+				label: 'vaccinated peoples',
 				backgroundColor: 'green',
 				borderColor: 'red',
 				hoverBackgroundColor: 'yellow',
@@ -30,8 +30,8 @@ $(document).ready(function(){
 		data: chartdata
 		});
 	},
-	error: function(vaccine){
-		console.log(vaccine);
+	error: function(data){
+		console.log(data);
 	}
 });
 });

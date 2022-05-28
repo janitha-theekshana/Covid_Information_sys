@@ -12,9 +12,9 @@ $query = sprintf("SELECT vaccine_name,people From vaccine_details ORDER BY vac_i
 $result = $mysqli ->query($query);
 
 //loop through the returned data
-$data_vac = array();
+$data = array();
 foreach($result as $row){
-	$data_vac[] = $row;
+	$data[] = $row;
 }
 //free memory assosiated with result
 $result->close();
@@ -23,5 +23,5 @@ $result->close();
 $mysqli->close();
 
 //now print the data
-print json_encode($data_vac);
+print json_encode($data);
 ?>

@@ -136,7 +136,7 @@
         
         </section>
 
-     <section id="kera">
+     <section id="kera"  style="background-color:teal; margin: 30px;height: 300px; border: 10px;">
       <div class="row">
         <div class="col">
             <p>Created on the idea of Grama Niladari mr.I.M.Kalupahana to awareness the people of Keradewala Grama Niladari
@@ -153,29 +153,32 @@
       </div>
     </section>
 
-    <section id="kera">
+    <section id="kera" style="background-color:lightseagreen;height: 450px; margin: 30px;">
         <div class="row">
-          <div class="col">
+          <div class="col col1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.882576290178!2d80.15505611409303!3d6.146469829138258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae17762788c382d%3A0x865f20064c08e16a!2z4Laa4LeZ4La74Lav4Lea4LeA4La9LeC3geC3iuKAjeC2u-C3kyDgt4Pgtq_gt4rgtrDgtrvgt4rgtrjgt4_gtrvgt4_gtrjgtro!5e0!3m2!1ssi!2slk!4v1645985825771!5m2!1ssi!2slk" width="450" height="350" style="border:0;margin-left:10%;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="col" style="margin-left: -40px;">
               <h2><u>About Keradewala Grama Niladhari Division</u></h2><br>
               <p>Keradewala Grama Niladhari Division is located in Baddegama Divisional Secretariat Division. This is a sparsely
                 populated rural area. Majuwana Primary Collage and Sri Saddharmarama viharaya are located in this Grama Niladhari Division
                 located in the Thelikada Police Division.</p>
           </div>
-          <div class="col col1">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.882576290178!2d80.15505611409303!3d6.146469829138258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae17762788c382d%3A0x865f20064c08e16a!2z4Laa4LeZ4La74Lav4Lea4LeA4La9LeC3geC3iuKAjeC2u-C3kyDgt4Pgtq_gt4rgtrDgtrvgt4rgtrjgt4_gtrvgt4_gtrjgtro!5e0!3m2!1ssi!2slk!4v1645985825771!5m2!1ssi!2slk" width="500" height="400" style="border:0;margin-left:10%;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
         </div>
       </section>
 
 <!--developer-->
-<section id="dev">
+<section id="dev" style="background-color:Darkslategray; margin: 30px;height: 400px; border: 10px;">
+<div class="row">
+    <div class="col">    
     <h3><u>Developer</u></h3>
-    <div class="row">
-        <img src="me.jpg" class="pro">
     </div>
+    <div class="col">
+    <img src="me.jpg" class="pro">
     <h4>H.P.G.Janitha Theekshana Alwis</h4><br>
-    <h5>GAL/IT/2019/F/0020</h5>
+    <h5 style="color:white;">GAL/IT/2019/F/0020</h5>
     </div>
+          </div>
 </section>
 
 <section id="foot">
@@ -266,12 +269,13 @@
         </script>
     <style>
         h3{
-            text-align: center;
+            font-size: 120px;
+            color:white;
         }
         h2{
             text-align: right;
         }
-        #dev h4{margin-top:-10%;}
+        #dev h4{margin-top:20px;color:white;}
      </style>   
     </body>
 </html>

@@ -14,7 +14,7 @@ button{
     font-size: 18px;
     margin: 0;
     position: absolute;
-    top: 90%;
+    top: 100%;
     transform: translateX(+900%);
 }
 p{

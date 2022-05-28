@@ -18,7 +18,7 @@ if($result_set){
         $table .='<td>'. $record['vaccinate'] . '</td>';
         $table .='<td>'. $record['vaccine_name'] . '</td>';
         $table .='<td>'. $record['vaccine_doss'] . '</td>';
-        $table .='<td>'. $record['quarantine_start_date'] . '</td>';
+        $table .='<td>'. $record['qurantine_start_date'] . '</td>';
         $table .='<td>'. $record['Quarantine_end_date'] . '</td>';
         $table .='</tr>';
 
